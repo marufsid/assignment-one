@@ -227,6 +227,7 @@ main section{
     border-radius: 16px;
     border: none;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .btn-donate:hover {
@@ -251,4 +252,49 @@ main section{
     padding: 17px 34px;
     border-radius: 8px;
     border: none;
+}
+
+.newsletter-container {
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.newsletter {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.newsletter-details {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+footer {
+    margin-bottom: 80px;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    margin: 24px 0 24px;
+}
+
+.email {
+    width: 600px;
+    background-color: #FFFFFF;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 18px 40px;
+    text-align: left;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+    border: none;
+}
+
+.subscribe {
+    border-radius: 0 8px 8px 0;
+}
+
+.spam {
+    color: rgba(14, 14, 14, 0.7);
 }
