@@ -68,14 +68,14 @@ main section{
 }
 
 .vision-two {
-    background-color: #C6E4D6;
+    background-color: rgba(198, 228, 214, 1);
     padding: 32px 32px;
     border-radius: 16px;
 }
 
 .vision-three {
-    background-color: #F7EBCF;
-    padding: 32px 32px;
+    background-color: rgba(247, 235, 207, 1);
+    padding: 24px 24px;
     border-radius: 16px;
 }
 
@@ -116,17 +116,17 @@ main section{
 }
 
 .quote-container {
-    background-image: url('../assets/quote-bg.png');
-    background-position: bottom;
-    background-color: #FFFFFF;
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: 24px 25px;
+    background-color: #FFFFFF;
     border-radius: 16px;
     padding: 48px 24px;
 }
 
 .quote {
     color: rgba(14, 14, 14, 0.8);
+    margin-top: 2px;
 }
 
 .author {
@@ -165,11 +165,13 @@ main section{
     color: rgba(14, 14, 14, 0.8);
     font-size: 32px;
     font-weight: bold;
+    margin: 0;
 }
 
 .al-jazeera {
     width: 134px;
     height: 40px;
+    margin: 12px 0;
 }
 
 .date{
@@ -193,6 +195,7 @@ main section{
     padding: 13px 26px;
     border-radius: 8px;
     border: none;
+    margin-top: 32px;
 }
 
 .satellite-two{
