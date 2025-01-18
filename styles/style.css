@@ -138,3 +138,64 @@ main section{
 .president {
     color: rgba(14, 14, 14, 0.6);
 }
+
+.news {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.news-details {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.satellite-container {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    padding: 48px;
+    border-radius: 24px;
+    gap: 32px;
+}
+
+.satellite-pic {
+    border-radius: 24px;
+}
+
+.bd-satellite {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.al-jazeera {
+    width: 134px;
+    height: 40px;
+}
+
+.date{
+    color: rgba(14, 14, 14, 0.7);
+    margin-right: 12px;
+}
+
+.time {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.satellite-details {
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.btn-satellite {
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px;
+    border-radius: 8px;
+    border: none;
+}
+
+.satellite-two{
+    margin-top: 24px;
+}
+
